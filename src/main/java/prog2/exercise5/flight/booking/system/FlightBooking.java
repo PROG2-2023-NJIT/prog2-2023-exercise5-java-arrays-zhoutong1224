@@ -362,7 +362,7 @@ public TripDestination getDestinationAirport(){
                 break;
         }
         for (int i = 0; i < 4; i++) {
-            char f = (char) ((random.nextInt(26) + 65));
+            char f = (char) ((random.nextInt(25) + 65));
             ticketNumber[a] = ticketNumber[a] + f;
         }
         this.ticketNumber[a] = ticketNumber[a] + "DOM";
